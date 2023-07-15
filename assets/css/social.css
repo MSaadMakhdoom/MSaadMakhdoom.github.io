@@ -1,0 +1,111 @@
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+          transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  
+}
+.social-btns .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3b5998;
+}
+.social-btns .btn.instagram:before {
+  background-color: sandybrown;
+}
+.social-btns .btn.instagram .fa {
+  color: sandybrown;
+}
+.social-btns .btn.google:before {
+  background-color: #dc4a38;
+}
+.social-btns .btn.google .fa {
+  color: #dc4a38;
+}
+.social-btns .btn.flickr:before {
+  background-color: hotpink;
+}
+.social-btns .btn.flickr .fa {
+  color: hotpink;
+}
+.social-btns .btn.github:before {
+  background-color: black;
+}
+.social-btns .btn.github .fa {
+  color: black;
+}
+.social-btns .btn.linkedin:before {
+  background-color: royalblue;
+}
+.social-btns .btn.linkedin .fa {
+  color: royalblue;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.social-btns {
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: inherit;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 4em;
+  height: 4em;
+  margin: 0 5px;
+  text-align: left;
+    vertical-align: middle;
+    line-height: 50%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+  opacity: 0.99;
+
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 2.5em;
+  vertical-align: middle;
+}
+
+.social-btns .btn {
+  text-align:center;
+}
+
+.social-btns .fa {
+  line-height:60px;
+}
