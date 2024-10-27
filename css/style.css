@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal; }
 
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
@@ -1427,3 +1422,102 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+
+  .skills-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.skills-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.skills-category {
+    margin-bottom: 40px;
+}
+
+.skills-category h3 {
+    font-size: 1.8em;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skills-grid {
+    display: grid;
+    padding: 0px 0px 0px 40px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    background: #f9f9f9;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: translateY(-10px);
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 4px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.6s ease;
+    border-radius: 4px;
+}
+
+.programming-languages-heading {
+  padding: 10px 0 20px 50px;  
+}
+
+
+.color-1::after { background-color: #4CAF50; transform: scaleX(1); }
+.color-2::after { background-color: #2196F3; transform: scaleX(1); }
+.color-3::after { background-color: #FFC107; transform: scaleX(1); }
+.color-4::after { background-color: #9C27B0; transform: scaleX(1); }
+.color-5::after { background-color: #009688; transform: scaleX(1); }
+.color-6::after { background-color: #3F51B5; transform: scaleX(1); }
+.color-7::after { background-color: #FF9800; transform: scaleX(1); }
+.color-8::after { background-color: #FF5722; transform: scaleX(1); }
+.color-9::after { background-color: #673AB7; transform: scaleX(1); }
+.color-10::after { background-color: #8BC34A; transform: scaleX(1); }
+.color-11::after { background-color: #CDDC39; transform: scaleX(1); }
+.color-12::after { background-color: #E91E63; transform: scaleX(1); }
+.color-13::after { background-color: #00BCD4; transform: scaleX(1); }
+.color-14::after { background-color: #FFEB3B; transform: scaleX(1); }
+.color-15::after { background-color: #795548; transform: scaleX(1); }
+.color-16::after { background-color: #607D8B; transform: scaleX(1); }
+
+.skill-item:hover .progress-bar-container::after {
+    transform: scaleX(1);
+}
