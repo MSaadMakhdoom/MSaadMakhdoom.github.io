@@ -24,4 +24,17 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+# Anthropic Claude (Claude web search & crawling)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
 Sitemap: https://msaadmakhdoom.github.io/sitemap.xml
