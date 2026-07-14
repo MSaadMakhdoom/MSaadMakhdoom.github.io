@@ -1,4 +1,27 @@
+# Allow all search engines and AI crawlers to index this site
 User-agent: *
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Microsoft Bing (also powers Copilot / Microsoft AI)
+User-agent: bingbot
+Allow: /
+
+# OpenAI ChatGPT search & browsing
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://msaadmakhdoom.github.io/sitemap.xml
